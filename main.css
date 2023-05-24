@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.border {
+    border: 2px;
+    border-style: solid;
+}
+
+body {
+    background-color: rgb(26,40,53);
+}
+
+.flex-border {
+    border: 2px;
+    border-style: solid;
+}
+
+.flex-items {
+    padding: 10px; 
+    margin: 10px; 
+    width: 33%;
+}
+
+.x {
+    min-width: 99%; 
+    min-height: 500px;
+    margin-top: 15px;
+}
+
+.x.x1 {
+    margin-left: 50px;
+}
+.x.x2 {
+    margin-left:20px; 
+    margin-right: 20px;
+}
+.x.x3 {
+    margin-right: 50px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    color:lightgrey;
+}
