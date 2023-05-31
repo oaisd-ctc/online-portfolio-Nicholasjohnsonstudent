@@ -38,7 +38,7 @@ body {
 .x.x3 {
     margin-right: 50px;
 }
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p,li {
     color:lightgrey;
 }
 
@@ -58,4 +58,9 @@ a:hover {
 }
 a:active {
     color:#ffffff
+}
+
+.resume {
+    width: 100%;
+    
 }
