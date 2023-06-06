@@ -90,3 +90,28 @@ a:active {
 /* .tilevania {
     background-image: linear-gradient(#777777a7, #777777a7), url(images/Screenshot\ 2023-06-01\ 130051.png);
 } */
+.flex-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.My-border {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1000px;
+}
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+.stripes {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    background-color: orange;
+    top: 0;
+    right: 100px;
+    rotate: 135deg;
+}
