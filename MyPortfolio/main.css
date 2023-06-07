@@ -40,6 +40,7 @@ body {
 }
 h1,h2,h3,h4,h5,h6,p,li {
     color:lightgrey;
+    
 }
 
 .DinoLink {
@@ -106,12 +107,46 @@ a:active {
     display: flex;
     flex-direction: column;
 }
-.stripes {
+/* .stripes {
     position: absolute;
-    height: 130px;
-    width: 50px;
+    height: 10px;
+    width: 10px;
     background-color: orange;
-    top: 0;
-    right: 100px;
-    rotate: 135deg;
+    top: 1000;
+    right: 1500px;
+    rotate: deg;
+} */
+.stripeSize1 {
+    z-index: 1;
+    position: absolute;
+    width: 150px;
+    rotate: 48deg;
+    top: 29px;
+    right: 1px;
 }
+.stripeSize2 {
+    z-index: 1;
+
+    position: absolute;
+    width: 150px;
+    rotate: 48deg;
+    top: 29px;
+    right: 75px;
+}
+
+h1 {
+    z-index: 10;
+}
+nav {
+    z-index: 0;
+}
+/* @media screen and (max-width:575px) {
+    .stripeSize1 {
+        opacity: .5;
+    }
+    .stripeSize2 {
+        opacity: .5;
+    }
+    
+
+} */
