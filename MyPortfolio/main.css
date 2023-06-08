@@ -20,12 +20,14 @@ body {
     padding: 10px; 
     margin: 10px; 
     width: 33%;
+    min-width: 350px;
 }
 
 .x {
     min-width: 99%; 
     min-height: 500px;
     margin-top: 15px;
+    
 }
 
 .x.x1 {
@@ -150,3 +152,8 @@ nav {
     
 
 } */
+.gamelink {
+    width: 100%;
+    padding-top: 70px;
+    height:100%;
+}
