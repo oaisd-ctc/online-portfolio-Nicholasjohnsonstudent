@@ -1,0 +1,159 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.border {
+    border: 2px;
+    border-style: solid;
+}
+
+body {
+    background-color: rgb(26,40,53);
+}
+
+.flex-border {
+    border: 2px;
+    border-style: solid;
+}
+
+.flex-items {
+    padding: 10px; 
+    margin: 10px; 
+    width: 33%;
+    min-width: 350px;
+}
+
+.x {
+    min-width: 99%; 
+    min-height: 500px;
+    margin-top: 15px;
+    
+}
+
+.x.x1 {
+    margin-left: 50px;
+}
+.x.x2 {
+    margin-left:20px; 
+    margin-right: 20px;
+}
+.x.x3 {
+    margin-right: 50px;
+}
+h1,h2,h3,h4,h5,h6,p,li {
+    color:lightgrey;
+    
+}
+
+.DinoLink {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tilevaniaLink {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 40%;
+    width:100%;
+    max-width: 336px;
+    /* height:100%; */
+}
+
+a:Link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 200%;   
+}
+a:visited {
+    color:#949494
+}
+a:hover {
+    color:#949494;
+}
+a:active {
+    color:#ffffff
+}
+
+.resume {
+    width: 100%;
+    
+}
+.image-border {
+    border-radius: 40px; 
+    /* width: 240%;  
+    height: 400%; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    color:lightgray;
+}
+/* .tilevania {
+    background-image: linear-gradient(#777777a7, #777777a7), url(images/Screenshot\ 2023-06-01\ 130051.png);
+} */
+.flex-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.My-border {
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1000px;
+}
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+/* .stripes {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: orange;
+    top: 1000;
+    right: 1500px;
+    rotate: deg;
+} */
+.stripeSize1 {
+    z-index: 1;
+    position: absolute;
+    width: 150px;
+    rotate: 48deg;
+    top: 29px;
+    right: 1px;
+}
+.stripeSize2 {
+    z-index: 1;
+
+    position: absolute;
+    width: 150px;
+    rotate: 48deg;
+    top: 29px;
+    right: 75px;
+}
+
+h1 {
+    z-index: 10;
+}
+nav {
+    z-index: 0;
+}
+/* @media screen and (max-width:575px) {
+    .stripeSize1 {
+        opacity: .5;
+    }
+    .stripeSize2 {
+        opacity: .5;
+    }
+    
+
+} */
+.gamelink {
+    width: 100%;
+    padding-top: 70px;
+    height:100%;
+}
