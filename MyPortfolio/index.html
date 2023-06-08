@@ -21,7 +21,12 @@
             .flex-container {
                 flex-wrap: wrap;
             }
-            
+            .resumeimage {
+                min-width: 100%;
+            }
+            .resumediv {
+                margin-left: 0%;
+            }
         }
         @media screen and (max-width:575px) { 
             
@@ -252,10 +257,13 @@
         <div class="flex-container">
             <div class="flex-border flex-items resume" style="">
                 <h2 style="text-align: center;">Resume</h2>
-                <a href="https://docs.google.com/document/d/1QF1GINhdYXVIpysC01DVp4RERhTV3qdHWu9ZiaiRGIU/edit"
-                    target="blank_" style="margin-left: 33%;">
-                    <img style="width: 35%; margin-left: auto; margin-right: auto;" src="images/Resume.png">
-                </a>
+                <!-- <a href="https://docs.google.com/document/d/1QF1GINhdYXVIpysC01DVp4RERhTV3qdHWu9ZiaiRGIU/edit"
+                    target="blank_" class="" style="margin-left: 33%;"> -->
+                <div class="resumediv">
+                    <img class="resumeimage" style="margin-left: auto; margin-right: auto;" src="images/Resume.png">
+                </div>
+                    
+                <!-- </a> -->
             </div>
         </div>
     </div>
